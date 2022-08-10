@@ -30,7 +30,7 @@
 
     {key:"3\u9ecf\u6db2\u5730\u5e95\u6e56_\u5165\u53e3",group:"\u9ecf\u6db2\u5730\u5e95\u6e56",name:"\u5165\u53e3",memos:[
         {name:"\u306c\u3081\u308b\u9053",type:"\u67091\u96bb",valueThresholds:[["red",20]],reward:["\u6c34\u908a\u7684\u77f3\u982d",1]},
-        {name:"\u306c\u3081\u306c\u3081\u306e\u9053",type:"\u67091\u96bb",valueThresholds:[["red",30]],reward:["\u5929\u7136\u6c34",1]},
+        {name:"\u306c\u3081\u306c\u3081\u306e\u9053",type:"\u67092\u96bb",valueThresholds:[["red",30]],reward:["\u5929\u7136\u6c34",4]},
         {name:"\u306c\u308b\u3093\u306c\u308b\u3093\u306e\u9053",type:"\u67093\u96bb",valueThresholds:[["red",40]],skillValueBonus:["\u6f5b\u6c34","red",10],reward:["\u6bec\u85fb",1]},
         {name:"\u6c34\u969b\u306e\u6b69\u304d\u304b\u305f",type:"\u67091\u96bb",valueThresholds:[["blue",20]],reward:["\u6c34\u908a\u7684\u77f3\u982d",1]},
         {name:"\u6d45\u3044\u6c34\u5834\u3092\u3086\u304f",type:"\u67091\u96bb",valueThresholds:[["blue",30]],reward:["\u5929\u7136\u6c34",6]},

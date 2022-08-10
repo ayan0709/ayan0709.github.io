@@ -44,9 +44,10 @@
     {name:"素手ではちょっとムリ",type:"1隻有skill",skills:["手持武器"],reward:["古の樹液",1]}
     ]},
     
+    //checked
     {key:"3黏液地底湖_入口",group:"黏液地底湖",name:"入口",memos:[
         {name:"ぬめる道",type:"有1隻",valueThresholds:[["red",20]],reward:["水邊的石頭",1]},
-        {name:"ぬめぬめの道",type:"有1隻",valueThresholds:[["red",30]],reward:["天然水",1]},
+        {name:"ぬめぬめの道",type:"有2隻",valueThresholds:[["red",30]],reward:["天然水",4]},
         {name:"ぬるんぬるんの道",type:"有3隻",valueThresholds:[["red",40]],skillValueBonus:["潛水","red",10],reward:["毬藻",1]},
         {name:"水際の歩きかた",type:"有1隻",valueThresholds:[["blue",20]],reward:["水邊的石頭",1]},
         {name:"浅い水場をゆく",type:"有1隻",valueThresholds:[["blue",30]],reward:["天然水",6]},
@@ -134,6 +135,7 @@
     {name:"勇敢なる囮役",type:"1隻有skill",skills:["食物","勇氣"],reward:["濃厚源泉",1]},   
 ]},
 
+//checked
 {key:"6螢火菇之路_入口",group:"螢火菇之路",name:"入口",memos:[
     {name:"暗い所グルグル",type:"有1隻",valueThresholds:[["red",40]],reward:["螢火菇",1]},
     {name:"暗い所グルグルグル",type:"有1隻",valueThresholds:[["red",50]],reward:["螢火菇",1]},
