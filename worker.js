@@ -182,6 +182,7 @@
     {name:"淡い光で栄養補給",type:"1隻有skill",skills:["光合成"],reward:["ホタル菌床",1]},
 ]},
 
+//checked
 {key:"6樹根隧道_入口",group:"樹根隧道",name:"入口",memos:[
     {name:"ねっこをかき分けて進め",type:"有1隻",valueThresholds:[["red",45]],reward:["濃稠樹液",1]},
     {name:"絡んだねっこを突き抜けろ",type:"有1隻",valueThresholds:[["red",65]],reward:["發光樹根",1]},
@@ -192,9 +193,9 @@
     {name:"絡んだねっこをほどこう",type:"有1隻",valueThresholds:[["blue",55]],reward:["濃稠樹液",1]},
     {name:"暗がりでねっこほどき",type:"有1隻",valueThresholds:[["blue",70]],skillValueBonus:["發光","blue",20],reward:["發光樹根",1]},
     {name:"すばやくねっこほどき",type:"有1隻",valueThresholds:[["green",60]],reward:["濃稠樹液",1]},
-    {name:"水中でねっこほどき",type:"有1隻",valueThresholds:[["blue",75]],skillValueBonus:["__","green",25],reward:["真理樹根",1]},
-    {name:"固く結ばれたねっこ",type:"有1隻",valueThresholds:[["red",45],["blue",50]],skillValueBonus:["近距離攻擊","blue",20],reward:["發光樹根",1]},
-    {name:"ねっこばっかり",type:"有1隻",valueThresholds:[["red",60],["blue",50]],skillValueBonus:["近距離攻擊","red",20],reward:["真理樹根",1]},
+    {name:"水中でねっこほどき",type:"有1隻",valueThresholds:[["blue",75]],skillValueBonus:["潛水","green",25],reward:["真理樹根",1]},
+    {name:"固く結ばれたねっこ",type:"有1隻",valueThresholds:[["red",45],["blue",50]],skillValueBonus:["近距離攻擊","blue",20,!0],reward:["發光樹根",1]},
+    {name:"ねっこばっかり",type:"有1隻",valueThresholds:[["red",60],["green",50]],skillValueBonus:["近距離攻擊","red",20],reward:["真理樹根",1]},
     {name:"みんなでねっこを抜こう",type:"總和",valueThresholds:[["red",130]],reward:["濃稠樹液",2]},
     {name:"もっとねっこを抜こう",type:"總和",valueThresholds:[["red",180]],skillValueBonus:["近距離攻擊","red",10],reward:["濃稠樹液",2]},
     {name:"でっかいねっこを抜こう",type:"總和",valueThresholds:[["red",220]],skillValueBonus:["近距離攻擊","red",20],reward:["真理樹根",1]},
