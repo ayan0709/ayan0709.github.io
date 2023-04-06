@@ -37,7 +37,7 @@
     {name:"デコボコの道",type:"有1隻",valueThresholds:[["green",120]],reward:["黑白雙面石",2]},
     {name:"落石注意",type:"有1隻",valueThresholds:[["green",150]],skillValueBonus:["石頭","green",30],reward:["堅硬岩石",3]},
     {name:"無数の落石",type:"有1隻",valueThresholds:[["green",180]],skillValueBonus:["石頭","green",20],reward:["古の樹液",1]},
-    {name:"	押せるかな？大きい岩",type:"總和",valueThresholds:[["red",450]],skillValueBonus:["石頭","red",15,!0],reward:["堅硬岩石",2]},
+    {name:"押せるかな？大きい岩",type:"總和",valueThresholds:[["red",450]],skillValueBonus:["石頭","red",15,!0],reward:["堅硬岩石",2]},
     {name:"落石どこに落ちるの？",type:"總和",valueThresholds:[["green",330]],skillValueBonus:["幸運","green",20],reward:["T形石頭",3]},
     {name:"大きい岩で橋かけろ",type:"有1隻",valueThresholds:[["red",150],["green",160]],skillValueBonus:["幸運","red",25],reward:["古の樹液",2]},
     {name:"どの岩を壊すの？",type:"有1隻",valueThresholds:[["green",150],["blue",150]],skillValueBonus:["幸運","green",25],reward:["とんがりストーン",1]},
