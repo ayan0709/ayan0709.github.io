@@ -7,6 +7,6 @@
     print list
              ^
 SyntaxError: invalid syntax
->>> print (list)   # 使用 Python3.x 的 print 函数
+>>> print (list)   # 使用 Python3.x 的 print 函数]]]
 ['a', 'b', 'c']
 >>>
