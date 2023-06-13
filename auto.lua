@@ -74,3 +74,7 @@ end
 if Settings.AutoLoadScript then
     autoload()
 end
+
+function autoload2()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()
+end
