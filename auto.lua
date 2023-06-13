@@ -65,9 +65,9 @@ function autoload()
     pcall(function()
         local exec = tostring(identifyexecutor())
         if exec == "Synapse X" and Settings.AutoLoadScript then
-            syn.queue_on_teleport("loadstring(game:HttpGet('C:\Users\Win10\Desktop\Scripts\Auto_Portal_V3_1.lua'))()")
+            syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()")
         elseif exec ~= "Synapse X" and Settings.AutoLoadScript then
-            queue_on_teleport("loadstring(game:HttpGet('C:\Users\Win10\Desktop\Scripts\Auto_Portal_V3_1.lua'))()")
+            queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()")
         end
     end)
 end
