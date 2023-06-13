@@ -1,16 +1,40 @@
---[[ 
-GIVE ME CREDITS.
+repeat  task.wait() until game:IsLoaded()
+if game.PlaceId == 8304191830 then
+    repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
+    repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("collection"):FindFirstChild("grid"):FindFirstChild("List"):FindFirstChild("Outer"):FindFirstChild("UnitFrames")
+else
+    repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
+    game:GetService("ReplicatedStorage").endpoints.client_to_server.vote_start:InvokeServer()
+    repeat task.wait() until game:GetService("Workspace")["_waves_started"].Value == true
+end
 
-Made by FortniteBeast69#1181.
-Made by FortniteBeast69#1181.
-Made by FortniteBeast69#1181.
 
-THIS DOES NOT HAVE BUILT IN AUTO LEAVE STOP ASKING ME. USE MY AUTO-LEAVE SCRIPT.
+function autoload()
+    pcall(function()
+        local exec = tostring(identifyexecutor())
+        if exec == "Synapse X" and Settings.AutoLoadScript then
+            syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()")
+        elseif exec ~= "Synapse X" and Settings.AutoLoadScript then
+            queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()")
+        end
+    end)
+end
+if Settings.AutoLoadScript then
+    autoload()
+end
+function autoload2()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()
+end
+if Settings.refarmc then
+    autoload2() end
+if Settings.setfarm1 then
+    autoload2() end
+if Settings.setfarm2 then
+    autoload2() end
+if Settings.setfarmIC then
+    autoload2() end
 
-note. I have not tested this. might not work if it does not work use the previous version.
 
-DO NOT DM ME UNLESS YOU TRIED EVERYTHING AND IT DOESNT WORK.
-]]
 
 getgenv().settings = {
    Tiers = {
@@ -19,9 +43,7 @@ getgenv().settings = {
    Wait_Time = 2 -- higher = more chance of not failing to join portal
 }
 
-repeat wait() until game:IsLoaded()
-wait(settings.Wait_Time)
-repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("collection"):FindFirstChild("grid"):FindFirstChild("List"):FindFirstChild("Outer"):FindFirstChild("UnitFrames")
+
 function p(id)
    local reg = getreg()
    local portals = {}
@@ -60,21 +82,3 @@ for i,v in pairs(p('portal_item__madoka')) do
          end
     end
  end
-
-function autoload()
-    pcall(function()
-        local exec = tostring(identifyexecutor())
-        if exec == "Synapse X" and Settings.AutoLoadScript then
-            syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()")
-        elseif exec ~= "Synapse X" and Settings.AutoLoadScript then
-            queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()")
-        end
-    end)
-end
-if Settings.AutoLoadScript then
-    autoload()
-end
-
-function autoload2()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ayan0709/ayan0709.github.io/master/auto.lua'))()
-end
